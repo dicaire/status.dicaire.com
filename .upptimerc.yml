@@ -38,7 +38,7 @@ status-website:
       href: /
     - title: Dicaire.com Home
       href: https://Dicaire.com
-  customBodyHtml: "<script src="https://cdn.usefathom.com/script.js" data-site="BEWPUJUT" defer></script>"   
+  customBodyHtml: "<script src='https://cdn.usefathom.com/script.js' data-site='BEWPUJUT' defer></script>"   
 #   robotsText: "User-agent: * \n Disallow: /"
 #     metaTags:
 #       - name: "color-scheme"
