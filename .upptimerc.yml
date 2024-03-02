@@ -7,6 +7,10 @@ user-agent: bhdicaire
 sites:
   - name: Google
     url: https://www.google.com
+    icon: https://www.google.com/favicon.ico    
+  - name: Corporate Web Site
+    url: https:/Dicaire.com
+    icon: https://Dicaire.com/favicon.png    
   - name: Wikipedia
     url: https://en.wikipedia.org
   - name: Hacker News
@@ -18,6 +22,8 @@ sites:
     port: 80
     check: "tcp-ping"
     ipv6: true
+
+#mta-sts.dicaire-com
 
 # notifications:
 #   - type: slack
@@ -31,7 +37,7 @@ status-website:
 #  logoUrl: https://avatars0.githubusercontent.com/u/4814844?s=200&v=4
   logoHref: https://wakatime.com
   faviconSvg: https://wakatime.com/safari-pinned-tab.svg
-  favicon: https://wakatime.com/favicon-32x32.png
+  favicon: https://Dicaire.com/favicon.png
   introTitle: Dicaire.com Status
   navbar:
     - title: Status
@@ -39,9 +45,10 @@ status-website:
     - title: Dicaire.com Home
       href: https://Dicaire.com
   customBodyHtml: "<script src='https://cdn.usefathom.com/script.js' data-site='BEWPUJUT' defer></script>"   
+#  theme: ocean
+  themeUrl: https://status.dicaire.com/dcom.css
+
 #   robotsText: "User-agent: * \n Disallow: /"
-#     metaTags:
-#       - name: "color-scheme"
-#         content: "dark light"
+
 #       - name: "robots"
 #         content: "noindex"        
