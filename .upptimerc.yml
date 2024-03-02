@@ -8,22 +8,25 @@ sites:
   - name: Google
     url: https://www.google.com
     icon: https://www.google.com/favicon.ico    
-  - name: Corporate Web Site
+  - name: Web Site
     url: https:/Dicaire.com
     icon: https://Dicaire.com/favicon.png    
-  - name: www.Dicaire.com
-    url: https:/Dicaire.com
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Menu – menu.Dicaire.com
+    url: https:/menu.Dicaire.com
+    icon: https://Dicaire.com/favicon.png     
+  - name: Mail Transport Agent Strict Transport Security (MTA-STS)
+    url: https:/mta-sts.dicaire.com
+    icon: https://Dicaire.com/favicon.png 
   - name: IPv6 test
     url: forwardemail.net
     port: 80
     check: "tcp-ping"
     ipv6: true
 
-#mta-sts.dicaire-com
+eve.ns.cloudflare.com
+syeef.ns.cloudflare.com
+
+#
 
 # notifications:
 #   - type: slack
@@ -48,6 +51,8 @@ status-website:
 #  theme: ocean
   themeUrl: https://status.dicaire.com/dcom.css
 
+i18n:
+  footer: This page is [open source]($REPO), powered by GitHub
 #   robotsText: "User-agent: * \n Disallow: /"
 
 #       - name: "robots"
