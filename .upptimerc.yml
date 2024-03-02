@@ -36,7 +36,7 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title:Dicaire.com Home
+    - title: Dicaire.com Home
       href: https://Dicaire.com
   customBodyHtml: "<script src="https://cdn.usefathom.com/script.js" data-site="BEWPUJUT" defer></script>"   
 #   robotsText: "User-agent: * \n Disallow: /"
