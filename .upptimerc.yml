@@ -11,8 +11,8 @@ sites:
   - name: Corporate Web Site
     url: https:/Dicaire.com
     icon: https://Dicaire.com/favicon.png    
-  - name: Wikipedia
-    url: https://en.wikipedia.org
+  - name: www.Dicaire.com
+    url: https:/Dicaire.com
   - name: Hacker News
     url: https://news.ycombinator.com
   - name: Test Broken Site
