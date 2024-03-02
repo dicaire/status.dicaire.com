@@ -1,6 +1,9 @@
 owner: dicaire 
 repo: status.dicaire.com 
-# user-agent: bhdicaire
+
+assignees: bhdicaire
+user-agent: bhdicaire
+
 sites:
   - name: Google
     url: https://www.google.com
@@ -16,8 +19,6 @@ sites:
     check: "tcp-ping"
     ipv6: true
 
-assignees:
-  - bhdicaire
 # notifications:
 #   - type: slack
 #     channel: 
@@ -37,5 +38,10 @@ status-website:
       href: /
     - title:Dicaire.com Home
       href: https://Dicaire.com
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  customBodyHtml: "<script src="https://cdn.usefathom.com/script.js" data-site="BEWPUJUT" defer></script>"   
+#   robotsText: "User-agent: * \n Disallow: /"
+#     metaTags:
+#       - name: "color-scheme"
+#         content: "dark light"
+#       - name: "robots"
+#         content: "noindex"        
