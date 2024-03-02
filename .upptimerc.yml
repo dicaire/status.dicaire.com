@@ -22,9 +22,14 @@ sites:
     port: 80
     check: "tcp-ping"
     ipv6: true
-
-eve.ns.cloudflare.com
-syeef.ns.cloudflare.com
+  - name: Cloudflare DNS
+    check: "tcp-ping"
+    url: syeef.ns.cloudflare.com
+    port: 53
+  - name: 'Cloudflare DNS #2'
+    check: "tcp-ping"
+    url: eve.ns.cloudflare.com
+    port: 53
 
 #
 
