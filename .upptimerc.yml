@@ -1,7 +1,6 @@
-# Change these first
 owner: dicaire 
 repo: status.dicaire.com 
-
+# user-agent: bhdicaire
 sites:
   - name: Google
     url: https://www.google.com
@@ -17,17 +16,26 @@ sites:
     check: "tcp-ping"
     ipv6: true
 
+assignees:
+  - bhdicaire
+# notifications:
+#   - type: slack
+#     channel: 
+    
 status-website:
-  cname: status.dicaire.com 
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Dicaire.com 
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.dicaire.com
+  introMessage: This page shows **real-time** status of internet resources   
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+#  logoUrl: https://avatars0.githubusercontent.com/u/4814844?s=200&v=4
+  logoHref: https://wakatime.com
+  faviconSvg: https://wakatime.com/safari-pinned-tab.svg
+  favicon: https://wakatime.com/favicon-32x32.png
+  introTitle: Dicaire.com Status
   navbar:
     - title: Status
       href: /
+    - title:Dicaire.com Home
+      href: https://Dicaire.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
