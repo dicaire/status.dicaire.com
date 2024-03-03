@@ -8,6 +8,8 @@ status-website:
   name: " " # dicaire.com status page
   cname: status.dicaire.com
   introTitle: "**Dicaire.com status page**"
+  introMessage: "**Status Pages:** [Apple](https://www.apple.com/support/systemstatus/), [AWS](https://health.aws.amazon.com/health/status), [Azure]( https://azure.status.microsoft/en-ca/status
+), [Google Cloud](https://status.cloud.google.com/regional/americas), [Google Workspace](https://www.google.com/appsstatus/dashboard/), [MS](https://status.cloud.microsoft/), [MS 365](https://portal.office.com/adminportal/home?#/servicehealth), and [OVH](https://public-cloud.status-ovhcloud.com/)"
 #  introMessage: This page shows **real-time** status of internet resources
   logoUrl: https://raw.githubusercontent.com/dicaire/status.dicaire.com/main/assets/dicaire-logo.svg
   logoHref: https://Dicaire.com
@@ -16,10 +18,10 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: Azure
-      href: https://azure.status.microsoft/en-ca/status
     - title: Cloudflare
       href: https://www.cloudflarestatus.com/
+    - title: GitHub
+      href: https://www.githubstatus.com/
     - title: Zoom
       href: https://status.zoom.us/
   customBodyHtml: "<script src='https://cdn.usefathom.com/script.js' data-site='BEWPUJUT' defer></script>"
@@ -55,7 +57,7 @@ sites:
     
 i18n:
   footer: "**Status Pages:** [Apple](https://www.apple.com/support/systemstatus/), [AWS](https://health.aws.amazon.com/health/status), [Azure]( https://azure.status.microsoft/en-ca/status
-), [Google Cloud](https://status.cloud.google.com/regional/americas), [Google Workspace](https://www.google.com/appsstatus/dashboard/), [MS](https://status.cloud.microsoft/), [MS 365](https://portal.office.com/adminportal/home?#/servicehealth), [OVH](https://public-cloud.status-ovhcloud.com/)"
+), [Google Cloud](https://status.cloud.google.com/regional/americas), [Google Workspace](https://www.google.com/appsstatus/dashboard/), [MS](https://status.cloud.microsoft/), [MS 365](https://portal.office.com/adminportal/home?#/servicehealth), and [OVH](https://public-cloud.status-ovhcloud.com/)"
   activeIncidents: Active Incidents
   allSystemsOperational: All systems are operational
   incidentReport: "Incident #$NUMBER report →"
