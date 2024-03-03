@@ -16,16 +16,25 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: Cloudflare
-      href: https://www.cloudflarestatus.com/
+    - title: Apple
+      href: https://www.apple.com/support/systemstatus/
+    - title: AWS
+      href: https://health.aws.amazon.com/health/status
     - title: Azure
       href: https://azure.status.microsoft/en-ca/status
-    - title: Microsoft 365
-      href:  https://portal.office.com/adminportal/home?#/servicehealth
-    - title: Microsoft
-      href: https://status.cloud.microsoft/
+      # href: https://status.cloud.microsoft/ global Microsoft Status Page
+    - title: Cloudflare
+      href: https://www.cloudflarestatus.com/
+    - title: Google Cloud
+      href: https://status.cloud.google.com/regional/americas
     - title: Google Workspace
       href: https://www.google.com/appsstatus/dashboard/
+    - title: Microsoft 365
+      href:  https://portal.office.com/adminportal/home?#/servicehealth
+    - title: OVH
+      href: https://public-cloud.status-ovhcloud.com/
+    - title: Zoom
+      href: https://status.zoom.us/
   customBodyHtml: "<script src='https://cdn.usefathom.com/script.js' data-site='BEWPUJUT' defer></script>"   
   themeUrl: https://raw.githubusercontent.com/dicaire/status.dicaire.com/main/assets/dcom.css
 
