@@ -4,18 +4,32 @@ repo: status.dicaire.com
 assignees: bhdicaire
 user-agent: bhdicaire
 
+status-website:
+  name: " "    # dicaire.com status page
+  cname: status.dicaire.com
+  introTitle: "**Dicaire.com status page**"
+#  introMessage: This page shows **real-time** status of internet resources
+  logoUrl: https://raw.githubusercontent.com/dicaire/status.dicaire.com/main/assets/dicaire-icon.svg
+  logoHref: https://Dicaire.com
+  faviconSvg: https://raw.githubusercontent.com/dicaire/status.dicaire.com/main/assets/dicaire-icon.svg
+  favicon: https://raw.githubusercontent.com/dicaire/status.dicaire.com/main/assets/dicaire-icon.png
+  navbar:
+    - title: Status
+      href: /
+    - title: Dicaire.com Home
+      href: https://Dicaire.com
+  customBodyHtml: "<script src='https://cdn.usefathom.com/script.js' data-site='BEWPUJUT' defer></script>"   
+  themeUrl: https://status.dicaire.com/dcom.css
+
 sites:
-  - name: 'Web – www.Dicaire.com'
+  - name: 'www.Dicaire.com'
     url: https://Dicaire.com
     icon: https://Dicaire.com/favicon.png
-  - name: 'Web – Sabrina.Dicaire.com'
+  - name: 'Sabrina.Dicaire.com'
     url: https://Sabrina.Dicaire.com
-  - name: 'Menu – menu.Dicaire.com'
+  - name: 'menu.Dicaire.com'
     url: https://menu.Dicaire.com
     icon: https://Dicaire.com/favicon.png
-  - name: 'Mail – Office 365'
-    url: https://dicaire-com.mail.protection.outlook.com
-#    icon: https://Dicaire.com/favicon.png 
   - name: Mail Transport Agent Strict Transport Security (MTA-STS)
     url: https:/mta-sts.dicaire.com
     icon: https://Dicaire.com/favicon.png 
@@ -23,36 +37,17 @@ sites:
     check: "tcp-ping"
     url: syeef.ns.cloudflare.com
     port: 53
+    icon: https://www.cloudflare.com/favicon.ico
   - name: 'DNS – eve.ns.cloudflare.com'
     check: "tcp-ping"
     url: eve.ns.cloudflare.com
     port: 53
-
-#
+    icon: https://www.cloudflare.com/favicon.ico
 
 # notifications:
 #   - type: slack
 #     channel: 
     
-status-website:
-  name: Dicaire.com 
-  cname: status.dicaire.com
-  introMessage: This page shows **real-time** status of internet resources   
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-#  logoUrl: https://avatars0.githubusercontent.com/u/4814844?s=200&v=4
-  logoHref: https://wakatime.com
-  faviconSvg: https://wakatime.com/safari-pinned-tab.svg
-  favicon: https://Dicaire.com/favicon.png
-  introTitle: Dicaire.com Status
-  navbar:
-    - title: Status
-      href: /
-    - title: Dicaire.com Home
-      href: https://Dicaire.com
-  customBodyHtml: "<script src='https://cdn.usefathom.com/script.js' data-site='BEWPUJUT' defer></script>"   
-#  theme: ocean
-  themeUrl: https://status.dicaire.com/dcom.css
-
 i18n:
   footer: ""
   activeIncidents: Active Incidents
