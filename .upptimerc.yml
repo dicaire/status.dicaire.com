@@ -1,11 +1,11 @@
-owner: dicaire 
-repo: status.dicaire.com 
+owner: dicaire
+repo:  status.dicaire.com 
 
-assignees: bhdicaire
+assignees:  bhdicaire
 user-agent: bhdicaire
 
 status-website:
-  name: " " # dicaire.com status page
+  name:  " " # dicaire.com status page
   cname: status.dicaire.com
   introTitle: "**Status page**"
   introMessage: "**Cloud providers:** [Apple](https://www.apple.com/support/systemstatus/), [AWS](https://health.aws.amazon.com/health/status), [Azure]( https://azure.status.microsoft/en-ca/status
@@ -24,7 +24,8 @@ status-website:
     - title: Zoom
       href: https://status.zoom.us/
   customBodyHtml: "<script src='https://cdn.usefathom.com/script.js' data-site='BEWPUJUT' defer></script>"
-  themeUrl: https://status.dicaire.com/dcom.css
+  theme: light
+#   themeUrl: https://status.dicaire.com/dcom.css
 
 sites:
   - name: 'www.Dicaire.com'
@@ -55,35 +56,6 @@ sites:
     
 i18n:
   footer: ""
-  activeIncidents: Active Incidents
-  allSystemsOperational: All systems are operational
-  incidentReport: "Incident #$NUMBER report →"
-  activeIncidentSummary: Opened at $DATE with $POSTS posts
-  incidentTitle: Incident $NUMBER Details
-  incidentDetails: Incident Details
-  incidentFixed: Fixed
-  incidentOngoing: Ongoing
-  incidentOpenedAt: Opened at
-  incidentClosedAt: Closed at
-  incidentViewOnGitHub: View and Subscribe on GitHub
-  incidentCommentSummary: Posted at $DATE by $AUTHOR
-  incidentBack: ← Back to all incidents
-  pastIncidents: Past Incidents
-  pastIncidentsResolved: Resolved in $MINUTES minutes with $POSTS posts
-  liveStatus: Live Status
-  overallUptime: "Overall uptime: $UPTIME"
-  overallUptimeTitle: Overall uptime
-  averageResponseTime: "Average response time: $TIMEms"
-  averageResponseTimeTitle: Average response
-  sevelDayResponseTime: 7-day response time
-  responseTimeMs: Response time (ms)
-  up: Up
-  down: Down
-  degraded: Degraded
-  ms: ms
-  loading: Loading
-  navGitHub: GitHub
-  rateLimitExceededTitle: Rate limit exceeded
   rateLimitExceededIntro: You have exceeded the number of requests you can do in an hour, so you'll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website.
   rateLimitExceededWhatDoesErrorMean: What does this error mean?
   rateLimitExceededErrorMeaning: This website uses the GitHub API to access real-time data about our websites' status. By default, GitHub allows each IP address 60 requests per hour, which you have consumed.
